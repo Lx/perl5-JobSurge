@@ -1,0 +1,22 @@
+###############################################################################
+#                                                                             #
+#  .htaccess                                                                  #
+#  Written by Alex Peters, 26/9/2005                                          #
+#  3105178 // apeters@cs.rmit.edu.au                                          #
+#                                                                             #
+#  Written to allow the JobSurge scripts to execute from outside cgi-bin.     #
+#                                                                             #
+###############################################################################
+
+#  Prevent access to this file from the Web
+   <Files .htaccess>
+      Order Allow,Deny
+      Deny From All
+   </Files>
+
+#  Allow scripts within this directory to be executed
+   AddHandler cgi-script .pl .cgi
+   Options +Includes +ExecCGI
+
+#  Override the default index page/s
+#  DirectoryIndex index.pl index.cgi index.php index.html company_login.cgi

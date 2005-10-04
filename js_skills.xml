@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+
+<!--
+###############################################################################
+#                                                                             #
+#  js_skills.xml                                                              #
+#                                                                             #
+#  Written by Alex Peters, 22/9/2005-24/9/2005                                #
+#  3105178 // apeters@cs.rmit.edu.au                                          #
+#                                                                             #
+#  Houses skills to be listed on the company user's New Job page and the job  #
+#  seeker's Search page.                                                      #
+#                                                                             #
+#  Please ensure that no skill contains the secondary delimiter character     #
+#  (defined as DELIM_SECONDARY in js_config.pm).                              #
+#                                                                             #
+###############################################################################
+-->
+
+<!DOCTYPE skillList SYSTEM "js_skill_list.dtd">
+
+<skillList>
+   <skill>Java</skill>
+   <skill>SQL</skill>
+   <skill>Perl</skill>
+   <skill>XML</skill>
+   <skill>C</skill>
+   <skill>C++</skill>
+   <skill>.NET</skill>
+   <skill>PHP</skill>
+</skillList>

@@ -1,0 +1,15 @@
+<!--
+###############################################################################
+#                                                                             #
+#  js_skill_list.dtd                                                          #
+#                                                                             #
+#  Written by Alex Peters, 22/9/2005-24/9/2005                                #
+#  3105178 // apeters@cs.rmit.edu.au                                          #
+#                                                                             #
+#  Defines the syntax and structure of the XML skill list (js_skills.xml).    #
+#                                                                             #
+###############################################################################
+-->
+
+<!ELEMENT skillList (skill+)>
+<!ELEMENT skill (#PCDATA)>

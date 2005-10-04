@@ -1,0 +1,80 @@
+/*#############################################################################
+#                                                                             #
+#  js_styles.css                                                              #
+#                                                                             #
+#  Written by Alex Peters, 12/9/2005-24/9/2005                                #
+#  3105178 // apeters@cs.rmit.edu.au                                          #
+#                                                                             #
+#############################################################################*/
+
+   body
+   {
+      color:      black;
+      margin:     0;
+      font-size:  80%;
+      background: white url(js_bg.png);
+   }
+   body, input, td
+   {
+      font-family: tahoma;
+   }
+   textarea
+   {
+      border:     solid 1px #bbb;
+      padding:    8px;
+      background: white;
+   }
+   h2, h3, h4, h5, h6
+   {
+      margin: 0;
+   }
+   .topBar
+   {
+      background:    #048;
+      border-bottom: 1px solid black;
+   }
+   .topBar, .topBar a
+   {
+      color: white;
+   }
+   .stopPop
+   {
+      border:     1px solid #992a2a;
+      margin:     0 auto 16px auto;
+      background: #f2dddd;
+   }
+   .stopPop, .stopPop a
+   {
+      color: #992a2a;
+   }
+   .infoPop
+   {
+      border:     1px solid #229922;
+      margin:     0 auto 16px auto;
+      background: #ddf2dd;
+   }
+   .infoPop, .infoPop a
+   {
+      color: #007700;
+   }
+   .formBox
+   {
+      border:     1px solid #ccc;
+      margin:     0 auto 16px auto;
+      padding:    8px;
+      background: #eee;
+   }
+   .formBox a
+   {
+      color: #840;
+   }
+   th
+   {
+      padding:       1px 8px;
+      text-align:    left;
+      border-bottom: 1px solid black;
+   }
+   .formBox td
+   {
+      padding: 0 8px;
+   }
